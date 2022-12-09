@@ -1,0 +1,94 @@
+body {
+    background-image: url("image1.avif");
+    background-size: cover;
+    font-family:'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    height: 100vh;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 70px;
+    
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+   
+}
+
+.Container{
+    background: white;
+    max-width: 58%;
+    margin: auto;
+    border: 3px solid black;
+    border-radius: 10px;
+    background-image: url("image1.avif");
+}
+
+
+
+.button {
+    border: none;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor:pointer;  
+    transition-duration: 0.4s;  
+}
+
+#increment-btn {
+    color: black; 
+    font-size: 20px;
+    border-radius: 90%;
+    
+}
+
+#decrement-btn{
+    
+    color: black; 
+    font-size: 20px;
+    border-radius: 90%;
+}
+
+#save-btn {
+    color: black; 
+    border-radius: 50%;
+   
+}
+
+#clean-btn{
+    color: black; 
+    border-radius: 50%;
+    
+}
+
+.buttonhover:hover {
+    background-color: rgb(71, 158, 93);
+    color: white;
+  }
+#priviousmsg{
+    background-color: lightcoral;
+    font-style: italic;
+    font-weight: bold;
+    color: whitesmoke;
+    border-radius: 54px;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 12px;
+    font-weight: bold;
+
+    
+}
+
+
+
